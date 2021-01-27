@@ -20,13 +20,12 @@ namespace Easy_q1
                 else Employees.Add(s);
             }
 
-            /*
-              
+
+            Console.WriteLine("Employee list sorted by promotion eligilibility\n");
             for (int i = 0; i < Employees.Count; i++)
                 Console.WriteLine(Employees[i]);
             Console.ReadKey();
 
-             */
         }
     }
 }
